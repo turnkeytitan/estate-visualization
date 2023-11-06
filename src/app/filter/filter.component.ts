@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.scss']
+  styleUrls: ['./filter.component.scss'],
 })
-export class FilterComponent {
-
-}
+export class FilterComponent {}

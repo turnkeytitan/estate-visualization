@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './full-info.component.html',
-  styleUrls: ['./full-info.component.scss']
+  styleUrls: ['./full-info.component.scss'],
 })
-export class FullInfoComponent {
-
-}
+export class FullInfoComponent {}

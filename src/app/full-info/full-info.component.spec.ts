@@ -8,7 +8,7 @@ describe('FullInfoComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [FullInfoComponent]
+      imports: [FullInfoComponent],
     });
     fixture = TestBed.createComponent(FullInfoComponent);
     component = fixture.componentInstance;
