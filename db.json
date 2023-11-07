@@ -11,7 +11,8 @@
       "parkingAvailable": true,
       "lat": 34.0522,
       "lon": -118.2437,
-      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       "parkingAvailable": false,
       "lat": 40.7128,
       "lon": -74.006,
-      "image": "https://images.pexels.com/photos/323781/pexels-photo-323781.jpeg"
+      "image": "https://images.pexels.com/photos/323781/pexels-photo-323781.jpeg",
+      "propertyType": "apartment"
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
       "parkingAvailable": true,
       "lat": 41.8781,
       "lon": -87.6298,
-      "image": "https://images.pexels.com/photos/145661/pexels-photo-145661.jpeg"
+      "image": "https://images.pexels.com/photos/145661/pexels-photo-145661.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "parkingAvailable": true,
       "lat": 47.6062,
       "lon": -122.3321,
-      "image": "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg"
+      "image": "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
       "parkingAvailable": true,
       "lat": 25.7617,
       "lon": -80.1918,
-      "image": "https://images.pexels.com/photos/2263681/pexels-photo-2263681.jpeg"
+      "image": "https://images.pexels.com/photos/2263681/pexels-photo-2263681.jpeg",
+      "propertyType": "apartment"
     },
     {
       "id": 6,
@@ -76,7 +81,8 @@
       "parkingAvailable": false,
       "lat": 37.7749,
       "lon": -122.4194,
-      "image": "https://images.pexels.com/photos/4061974/pexels-photo-4061974.jpeg"
+      "image": "https://images.pexels.com/photos/4061974/pexels-photo-4061974.jpeg",
+      "propertyType": "apartment"
     },
     {
       "id": 7,
@@ -89,7 +95,8 @@
       "parkingAvailable": true,
       "lat": 30.2672,
       "lon": -97.7431,
-      "image": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg"
+      "image": "https://images.pexels.com/photos/209315/pexels-photo-209315.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 8,
@@ -102,7 +109,8 @@
       "parkingAvailable": true,
       "lat": 39.7392,
       "lon": -104.9903,
-      "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg"
+      "image": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 9,
@@ -115,7 +123,8 @@
       "parkingAvailable": true,
       "lat": 39.1911,
       "lon": -106.8175,
-      "image": "https://images.pexels.com/photos/5071177/pexels-photo-5071177.jpeg"
+      "image": "https://images.pexels.com/photos/5071177/pexels-photo-5071177.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 10,
@@ -128,7 +137,8 @@
       "parkingAvailable": false,
       "lat": 42.3601,
       "lon": -71.0589,
-      "image": "https://images.pexels.com/photos/4061979/pexels-photo-4061979.jpeg"
+      "image": "https://images.pexels.com/photos/4061979/pexels-photo-4061979.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 11,
@@ -141,7 +151,8 @@
       "parkingAvailable": true,
       "lat": 39.7392,
       "lon": -104.9903,
-      "image": "https://images.pexels.com/photos/3127152/pexels-photo-3127152.jpeg"
+      "image": "https://images.pexels.com/photos/3127152/pexels-photo-3127152.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 12,
@@ -154,7 +165,8 @@
       "parkingAvailable": true,
       "lat": 41.8781,
       "lon": -87.6298,
-      "image": "https://images.pexels.com/photos/4119830/pexels-photo-4119830.jpeg"
+      "image": "https://images.pexels.com/photos/4119830/pexels-photo-4119830.jpeg",
+      "propertyType": "apartment"
     },
     {
       "id": 13,
@@ -167,7 +179,8 @@
       "parkingAvailable": false,
       "lat": 32.7157,
       "lon": -117.1611,
-      "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg"
+      "image": "https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 14,
@@ -180,7 +193,8 @@
       "parkingAvailable": true,
       "lat": 28.5383,
       "lon": -81.3792,
-      "image": "https://images.pexels.com/photos/5845477/pexels-photo-5845477.jpeg"
+      "image": "https://images.pexels.com/photos/5845477/pexels-photo-5845477.jpeg",
+      "propertyType": "house"
     },
     {
       "id": 15,
@@ -193,7 +207,8 @@
       "parkingAvailable": true,
       "lat": 47.6062,
       "lon": -122.3321,
-      "image": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg"
+      "image": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg",
+      "propertyType": "house"
     }
   ]
 }

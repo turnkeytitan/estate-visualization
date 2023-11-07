@@ -1,1 +1,73 @@
-<p>filter works!</p>
+<form
+  [formGroup]="form"
+  (ngSubmit)="onSubmit()"
+  class="flex justify-around gap-4"
+>
+  <div>
+    <label for="location">Location</label>
+    <input
+      type="text"
+      id="location"
+      placeholder="Location"
+      formControlName="location"
+    />
+  </div>
+
+  <div>
+    <label for="type">Type</label>
+    <select
+      id="type"
+      formControlName="type"
+      placeholder="Property type"
+      class="flex flex-col gap-4"
+    >
+      <option value="" disabled selected>Property type</option>
+      <option value="apartment">Apartment</option>
+      <option value="house">House</option>
+    </select>
+  </div>
+
+  <div formGroupName="price" class="flex gap-4">
+    <div>
+      <label for="maxPrice">Max Price</label>
+      <input
+        type="number"
+        id="maxPrice"
+        placeholder="Max Price"
+        formControlName="max"
+      />
+    </div>
+    <div>
+      <label for="minPrice">Min Price</label>
+      <input
+        type="number"
+        id="minPrice"
+        placeholder="Min Price"
+        formControlName="min"
+      />
+    </div>
+  </div>
+
+  <div formGroupName="area" class="flex gap-4">
+    <div>
+      <label for="maxArea">Max Area</label>
+      <input
+        type="number"
+        id="maxArea"
+        placeholder="Max Area"
+        formControlName="max"
+      />
+    </div>
+    <div>
+      <label for="minArea">Min Area</label>
+      <input
+        type="number"
+        id="minArea"
+        placeholder="Min Area"
+        formControlName="min"
+      />
+    </div>
+  </div>
+
+  <button type="submit" class="py-3 px-6 bg-lime-900 text-slate-100 rounded-md">Search</button>
+</form>
