@@ -19,7 +19,7 @@ import { ShareDataService } from 'app/core/services/share-data.service';
 })
 export class FilterComponent {
   form: FormGroup<FilterForm> = this.fb.group({
-    location: [''],
+    city: [''],
     type: this.fb.control<propertyType>(''),
     price: this.fb.group<numberGroup>({
       max: this.fb.control<number | null>(null),

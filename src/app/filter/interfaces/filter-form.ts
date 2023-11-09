@@ -2,7 +2,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { propertyType } from 'app/core/interfaces/filter';
 
 export interface FilterForm {
-  location: FormControl<string | null>;
+  city: FormControl<string | null>;
   type: FormControl<propertyType | null>;
   price: FormGroup<numberGroup>;
   area: FormGroup<numberGroup>;

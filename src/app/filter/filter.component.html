@@ -1,15 +1,15 @@
 <form
   [formGroup]="form"
   (ngSubmit)="onSubmit()"
-  class="flex justify-around gap-4"
+  class="flex justify-around gap-4 flex-wrap"
 >
   <div>
-    <label for="location">Location</label>
+    <label for="city">City</label>
     <input
       type="text"
-      id="location"
-      placeholder="Location"
-      formControlName="location"
+      id="city"
+      placeholder="City"
+      formControlName="city"
     />
   </div>
 
@@ -21,7 +21,7 @@
       placeholder="Property type"
       class="flex flex-col gap-4"
     >
-      <option value="" disabled selected>Property type</option>
+      <option value="" selected>Property type</option>
       <option value="apartment">Apartment</option>
       <option value="house">House</option>
     </select>

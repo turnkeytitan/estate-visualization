@@ -1,6 +1,6 @@
 export type propertyType = 'apartment' | 'house' | '';
 export interface Filter {
-  location: string | null;
+  city: string | null;
   type: propertyType | null;
   price: {
     max: number | null;

@@ -8,7 +8,8 @@ body {
   margin: 0;
 }
 @layer base {
-  input, select {
+  input,
+  select {
     border-radius: 10px;
     padding: 10px 25px;
     max-width: 190px;
@@ -22,20 +23,21 @@ body {
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+    appearance: none;
     margin: 0;
   }
 
   /* Firefox */
   input[type="number"] {
     -moz-appearance: textfield;
+    appearance: textfield;
   }
 
-  label{
+  label {
     display: none;
   }
 
   select {
-    display: inline-flex;
     appearance: none;
   }
 }
