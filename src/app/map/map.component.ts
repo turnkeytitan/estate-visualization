@@ -60,17 +60,34 @@ export class MapComponent implements OnInit, OnDestroy {
 
   handleFilter(filter: Filter | null) {
     this.mapService.deletePlaces(this.map);
+
     this.filteredProperties = this.propertyService.filterProperties(
       this.properties,
       filter,
     );
+    console.log(this.properties);
+    console.log(this.filteredProperties);
     this.showPlaces();
+  }
+
+  handleClick(point: string) {
+    console.log(this.filteredProperties);
+
+    const property = this.filteredProperties.find(
+      (property) => property.id === point,
+    );
+    property && this.sharedService.setProperty(property);
   }
 
   showPlaces() {
     this.filteredProperties.forEach((property) => {
       this.mapService.setMarker(property, this.map);
       this.mapService.addTooltip(property, this.map);
+      this.mapService.handlePropertyClick(
+        property,
+        this.map,
+        this.handleClick.bind(this),
+      );
     });
   }
 }

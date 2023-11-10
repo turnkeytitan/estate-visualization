@@ -1,1 +1,21 @@
-<p>full-info works!</p>
+<ng-container *ngIf="property$ | async as property">
+  <article
+    class="flex flex-col items-center min-w-[320px] max-w-[60rem] max-h-[95%] justify-center bg-slate-600 text-slate-100 p-4 gap-4 rounded-lg shadow-neutral-500"
+  >
+    <h1 class="text-center">{{ property.name }}</h1>
+    <img
+      src="{{ property.image }}"
+      alt="display of house front"
+      class="max-w-full max-h-[500px]"
+    />
+    <h2 class="text-center">{{ property.price | currency }}</h2>
+    <p class="text-center">{{ property.city }}</p>
+    <p class="text-center">{{ property.description }}</p>
+    <section class="flex gap-4 justify-between">
+      <p class="text-center">{{ property.area }}&#13217;</p>
+      <p *ngIf="property.parkingAvailable" class="text-center">With parking</p>
+      <p class="text-center">{{ property.bedrooms }} bedrooms</p>
+      <p class="text-center">{{ property.bathrooms }} bathrooms</p>
+    </section>
+  </article>
+</ng-container>

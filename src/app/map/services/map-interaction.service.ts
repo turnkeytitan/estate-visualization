@@ -76,6 +76,18 @@ export class MapInteractionService {
       popup.remove();
     });
   }
+  handlePropertyClick(
+    property: Property,
+    map: Map,
+    itemClicked: (point: string) => void,
+  ) {
+    const { id } = property;
+    const called = () => {
+      itemClicked(id);
+    };
+
+    map.on('click', `place${id}`, called);
+  }
   getMap(lonLat: LngLatLike = [-98.35, 39.5]) {
     return new Map({
       container: 'map',
