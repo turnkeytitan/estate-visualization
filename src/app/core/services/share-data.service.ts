@@ -11,7 +11,7 @@ export class ShareDataService {
   filter: Observable<Filter> = this.filter$.asObservable();
 
   private Property$: Subject<Property> = new Subject<Property>();
-  Property: Observable<Property> = this.Property$.asObservable();
+  property: Observable<Property> = this.Property$.asObservable();
 
   setFilter(data: Filter) {
     this.filter$.next(data);
