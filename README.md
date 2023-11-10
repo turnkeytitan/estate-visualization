@@ -1,27 +1,32 @@
-# EstateVisualization
+Real Estate Project Visualization System
+Overview
+This Angular application provides a user-friendly interface for visualizing real estate projects on an interactive map. The application utilizes Mapbox for map integration, Tailwind for design, and the Angular HTTP module to connect to a JSON server providing project data.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Project Scope
+The focus of this project is on the front-end (UI), with the server-side logic and database not implemented. The goal is to implement components for map visualization, markers, project details, search, and filtering.
 
-## Development server
+Technologies and Tools
+Angular: Front-end development framework.
+Tailwind: CSS framework for design and layout components.
+Mapbox: Interactive map integration.
+Angular HTTP module: Connecting to the data API.
+Implementation
+Map Visualization
+Utilize Mapbox to integrate an interactive map into the application. Configure the map and its options in a dedicated Angular component.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Project Markers
+Create a component representing a marker on the map. Each marker displays a preview of the project, such as an image or an icon.
 
-## Code scaffolding
+Detailed Information
+Clicking on a marker will display a popup or a section with detailed project information. Implement a dedicated Angular component to display this information.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Search and Filtering
+Create a search component enabling users to search for projects based on location, property type, price, area, etc. Implement filters to refine search results.
 
-## Build
+Interaction and Navigation
+Users can interact with the map to pan and zoom. Implement map controls to facilitate these actions using Angular features.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To up the server use
+npm run server
+And then
+ng serve
